@@ -26,6 +26,7 @@ I used Java Streams with `Collectors.groupingBy` and `Collectors.counting()` bec
 
 ## Edge cases
 
+- No Duplicates = returns empty map
 - `null` input = returns empty map
 - Empty list = returns empty map
 - All same strings = returns that string with full count
